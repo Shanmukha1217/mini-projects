@@ -32,6 +32,7 @@ button {
 
 #results {
   height: 100px;
+  margin: 50px 0;
 }
 .results-text {
   font-size: 2rem;

@@ -21,5 +21,8 @@ calculateBtn.addEventListener("click", (e) => {
   } else {
     result = "Invalid input";
   }
-  resultsDiv.innerHTML = `<h2 class = "results-text"> ${result}</h2>`;
+  resultsDiv.innerHTML = `
+  
+  <p> Your Bmi is ${Math.round(bmi)} </p> and You are
+  <h2 class = "results-text"> ${result}</h2>`;
 });
