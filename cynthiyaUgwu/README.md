@@ -2,5 +2,5 @@
 
 this porfolio is featured in https://awwwards.com
 
-👇Click on the below link to view the original website.
+👉Click on the below link to view the original website.
 https://cynthiaugwu.com/
