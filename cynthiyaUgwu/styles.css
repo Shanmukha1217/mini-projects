@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "General Sans Regular", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.main {
+  width: 100%;
+  /* padding: 0 40px; */
+}
+.hero {
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+.nav {
+  position: static;
+  height: 100px;
+  width: 100%;
+  color: #fff;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav h4 a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: white;
+}
+.heading {
+  width: 100%;
+
+  padding: 40px 50px;
+  margin-top: 5rem;
+}
+.heading h1 {
+  font-family: "General Sans Medium", sans-serif;
+  font-size: 10vw;
+  line-height: 0.9;
+  font-weight: 500;
+  letter-spacing: 5px;
+  opacity: 0.65;
+}
+
+/* Style the text and set initial underline properties */
+.hover-text {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+/* Create the underline effect */
+.hover-text::after {
+  content: "";
+  position: absolute;
+  /* top: ; */
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px; /* Adjust the thickness of the underline */
+  background-color: #fff; /* Adjust the color of the underline */
+  transition: width 0.3s ease-in-out;
+  transform-origin: right;
+}
+
+/* Add the hover effect to the text and underline */
+.hover-text:hover {
+  color: #fff; /* Adjust text color on hover */
+}
+
+.hover-text:hover::after {
+  width: 100%; /* Fill from left to right on hover */
+}
+.blocktext {
+  width: fit-content;
+  margin-left: 240px;
+}
+.blocktext h5 {
+  font-size: 20px;
+  text-align: right;
+}
+.freelance-info {
+  margin-top: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+.freelance-info h5 {
+  font-size: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+.hero-footer {
+  margin-top: 130px;
+  padding: 0 40px 10px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.link {
+  text-transform: uppercase;
+  color: white;
+}
+
+.scroll-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.scroll-icons .icon {
+  color: #000;
+  /* margin-bottom: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-weight: 1000;
+  cursor: pointer;
+}
+
+.experience {
+  /* margin-top: 250px; */
+  padding: 200px 50px 0;
+  height: 100vh;
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+}
+.experience-section {
+  position: relative;
+  height: 33%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  /* padding: 0 150px; */
+}
+.bottom-border {
+  border-bottom: 1px solid #fff;
+}
+.experience-section h1 {
+  font-size: 9vw;
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 500;
+}
+.experience-section h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.experience-section img {
+  display: none;
+  height: 150%;
+  z-index: 999;
+  position: absolute;
+}
+.about {
+  padding: 150px 0px 0px 50px;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+.about img {
+  height: 250px;
+}
+.about .information {
+  width: 45vw;
+  display: flex;
+  gap: 100px;
+  /* justify-content: flex-end; */
+  margin-left: 800px;
+}
+/* .information .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+} */
+.transparent-text {
+  opacity: 0.7;
+  margin-bottom: 5px;
+}
+.about-me-info {
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+.btn-lets-talk {
+  margin-top: 20px;
+  background: transparent;
+  padding: 10px 30px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: 200px;
+}
+.yt-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.yt-link .icon {
+  font-weight: 100;
+  transform: rotate(-30deg);
+}
+
+.footer {
+  /* height: 100px; */
+  padding: 0 50px 20px 50px;
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-links {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
